@@ -1,3 +1,6 @@
 function skillsMember() {
-  console.log('I am a member of skills.js')
+    this.skills = ['HTML', 'CSS', 'JS'];
+    this.addSkill = function (skill) {
+        this.skills.push(skill);
+    }
 }
